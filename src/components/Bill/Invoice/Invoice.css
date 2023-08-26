@@ -1,0 +1,109 @@
+.invoice {
+  width: 747px;
+  height: 725px;
+  position: absolute;
+  top: 100px;
+  left: 655px;
+}
+
+.invoiceHeader {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.invoice-items {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 10px;
+}
+
+.bill-item.header {
+  font-weight: bold;
+}
+
+.total-amount {
+  text-align: right;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.invoiceBox {
+  border-radius: 24px;
+  border: 1px solid #312e81;
+  background: #fff;
+  box-shadow: 0px 10px 10px -5px rgba(218, 125, 125, 0.04),
+    0px 20px 25px -5px rgba(0, 0, 0, 0.03),
+    0px -6px 25px 0px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  height: 100%;
+}
+
+.patients {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  gap: 35px;
+}
+
+.data {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.textWrapper1 {
+  color: #000000;
+  margin-top: -1px;
+  opacity: 0.5;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.textwrapper2 {
+  color: #000000;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.invoicefooter {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 163px;
+}
+.invoceWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.invoceWrap2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.invoiceData {
+  margin-top: 220px;
+}
